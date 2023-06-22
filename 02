@@ -34,3 +34,8 @@ listarTareas():void{
 }
 
 const lista  = new ListaTareas();
+lista.agregarTarea({id:1,descripcion:"Hacer la compra",completada:false});
+lista.agregarTarea({id: 2,descripcion:"Lavar los platos", completada:false});
+lista.agregarTarea({id:3, descripcion:"Pasear al perro",completada:falsa});
+lista.marcarTareaCompleta(2);
+lista.listarTareas();
