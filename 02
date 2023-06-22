@@ -21,3 +21,16 @@ marcar_Tarea_Completa(id: number): void {
     tareaEncontrada.completada = true; 
   }
 }
+
+listarTareas():void{
+  console.log(''Lista de tareas:'');
+  this.tareas.forEach((tarea)=>{
+    console.log('ID:${tarea.id}');
+    console.log('Descripcion:${tarea.descripcion}');
+    console.log('Completada:${tarea.completada}');
+    console.log(''--------------------'');
+    });
+  }
+}
+
+const lista  = new ListaTareas();
