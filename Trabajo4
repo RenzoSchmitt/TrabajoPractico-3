@@ -23,4 +23,16 @@ this.lista.push(lista);
 }
 }
 
+class Lista {
+nombre:string;
+votos:number;
+constructor(nombre,candidato){
+this.nombre = nombre;
+this.candidato = candidato
+this.votos = 0;
+}
+
+incrementarVotos() {
+this.votos++:
+}
 
