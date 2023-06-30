@@ -43,4 +43,17 @@ this.dni = dni;
 this.votoRealizado = false;
 }
 
+votar(){
+this.votoRealizado = true;
+}
+}
+
+class Voto{
+votante: string;
+lista: string;
+constructor(votante: string, lista: string){
+this.votante = votante;
+this.lista = lista;
+}
+}
 
