@@ -1,1 +1,7 @@
+Class PartidoPolitico{
+nombre:string;
+candidatos:[];
+constructor(nombre:string)
+this.nombre=nombre
+this.candidatos=[];
 
