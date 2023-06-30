@@ -36,3 +36,11 @@ incrementarVotos() {
 this.votos++:
 }
 
+} class Votante { nombre:string; dni:number; votoRealizado
+constructor (nombre:string, dni:number) {
+this.nombre = nombre;
+this.dni = dni;
+this.votoRealizado = false;
+}
+
+
