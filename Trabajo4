@@ -4,4 +4,23 @@ candidatos:[];
 constructor(nombre:string)
 this.nombre=nombre
 this.candidatos=[];
+}
+agregarCandidato(candidato){
+this.candidatos.push(candidato);
+}
+}
+class Candidato{
+nombre:string;
+partido:string;
+listas:[]
+constructor(nombre:string,partido:string)
+this.nombre=nombre
+this.partido=partido
+this.listas=[]
+}
+agregarLista(lista){
+this.lista.push(lista);
+}
+}
+
 
